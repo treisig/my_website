@@ -1,0 +1,122 @@
+.home-div .social-div,
+.home-div .home-svg {
+  display: none;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-div {
+  background: #079f8e;
+  color: white;
+}
+
+.nav-div .main-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.nav-div .name {
+  color: #f7c008;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-div .sub-headers-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-div .sub-headers-div .sub-headers {
+  padding: 0 0.25em 0 0.25em;
+}
+
+.welcome-div {
+  display: -ms-grid;
+  display: grid;
+  height: auto;
+  background: #08baa6;
+}
+
+.welcome-div .left-home-text {
+  padding: 4em;
+}
+
+.welcome-text {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.meet-span {
+  color: #2433eb;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 1050px) {
+  .welcome-div {
+    height: 90vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+    text-align: left;
+    background: unset;
+  }
+  .welcome-div h1 {
+    text-align: left;
+    font-size: 3em;
+    line-height: 1.2em;
+  }
+  .welcome-div .left-home-text {
+    background: #08baa6;
+  }
+  .nav-div {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+    background: unset;
+  }
+  .nav-div .main-div {
+    background: #079f8e;
+    padding: 2em 4em 2em 4em;
+  }
+  .nav-div .social-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: white;
+  }
+  .nav-div .social-div img {
+    width: 30px;
+    padding: 1em;
+  }
+  .home-svg {
+    display: unset !important;
+    margin-left: -53%;
+    margin-top: 5%;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
