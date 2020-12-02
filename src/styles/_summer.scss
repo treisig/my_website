@@ -1,0 +1,86 @@
+$my_blue: #021ded;
+
+.summer-div {
+  display: flex;
+  flex-direction: column;
+  padding: 4em 2em;
+  position: relative;
+}
+
+// .summer-div::before {
+//   content: "";
+//   width: 0;
+//   height: 0;
+//   border-top: 60px solid transparent;
+//   border-bottom: 60px solid transparent;
+//   border-left: 60px solid green;
+//   position: absolute;
+//   border-radius: 16px;
+//   top: 0;
+//   left: 0;
+// }
+
+.triangle-div {
+  position: absolute;
+  top: 1em;
+  left: 5em;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.subtitle {
+  color: $my_blue;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 0.9em;
+}
+
+.title {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 0.8em !important;
+}
+
+.p-description {
+  color: #3b3b3b;
+  margin-bottom: 3em;
+}
+
+// This triange is taken from https://stackoverflow.com/questions/14446677/how-to-make-3-corner-rounded-triangle-in-css
+
+.triangle {
+  position: relative;
+  background-color: orange;
+  opacity: 33%;
+  text-align: left;
+}
+.triangle:before,
+.triangle:after {
+  content: "";
+  position: absolute;
+  background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+  //   width: 10em;
+  //   height: 10em;
+  width: 100px;
+  height: 100px;
+  border-top-right-radius: 30%;
+}
+
+.triangle {
+  transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
+}
+.triangle:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707)
+    translate(0, -50%);
+}
+.triangle:after {
+  transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+}
+
+// done

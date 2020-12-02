@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+  font-family: "Lato", sans-serif !important;
+}
+
 .home-div .social-div,
 .home-div .home-svg {
   display: none;
@@ -118,5 +123,83 @@ img {
     margin-top: 5%;
     width: 100%;
   }
+}
+
+.summer-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 4em 2em;
+  position: relative;
+}
+
+.triangle-div {
+  position: absolute;
+  top: 1em;
+  left: 5em;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  z-index: -1;
+}
+
+.subtitle {
+  color: #021ded;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 0.9em;
+}
+
+.title {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 0.8em !important;
+}
+
+.p-description {
+  color: #3b3b3b;
+  margin-bottom: 3em;
+}
+
+.triangle {
+  position: relative;
+  background-color: orange;
+  opacity: 33%;
+  text-align: left;
+}
+
+.triangle:before,
+.triangle:after {
+  content: "";
+  position: absolute;
+  background-color: inherit;
+}
+
+.triangle,
+.triangle:before,
+.triangle:after {
+  width: 100px;
+  height: 100px;
+  border-top-right-radius: 30%;
+}
+
+.triangle {
+  -webkit-transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
+          transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
+}
+
+.triangle:before {
+  -webkit-transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0, -50%);
+          transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0, -50%);
+}
+
+.triangle:after {
+  -webkit-transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+          transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
 }
 /*# sourceMappingURL=main.css.map */
