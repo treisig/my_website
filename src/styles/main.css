@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-body {
-  font-family: "Lato", sans-serif !important;
-}
-
 .home-div .social-div,
 .home-div .home-svg {
   display: none;
@@ -201,5 +197,44 @@ img {
 .triangle:after {
   -webkit-transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
           transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+}
+
+.skills-div {
+  background-color: #021ded;
+  padding: 4em 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  background-color: white;
+  padding: 2em 4em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+}
+
+.card-logo {
+  height: 60px;
+  width: 60px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.subtitle-card {
+  font-weight: bold;
+}
+
+body {
+  font-family: "Lato", sans-serif !important;
 }
 /*# sourceMappingURL=main.css.map */

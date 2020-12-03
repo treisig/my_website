@@ -1,0 +1,26 @@
+.skills-div {
+  background-color: $my_blue;
+  padding: 4em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: white;
+  padding: 2em 4em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+}
+
+.card-logo {
+  height: 60px;
+  width: 60px;
+  margin: 0 auto;
+  display: grid;
+  place-content: center;
+}
+
+.subtitle-card {
+  font-weight: bold;
+}

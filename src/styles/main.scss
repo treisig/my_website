@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
+@import "./home";
+@import "./summer";
+@import "./skills";
+
 body {
   font-family: "Lato", sans-serif !important;
 }
-@import "./home";
-@import "./summer";
