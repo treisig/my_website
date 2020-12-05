@@ -1,0 +1,20 @@
+.proj-div {
+  padding: 4em 2em 0 2em;
+  .subtitle {
+    text-transform: unset;
+    letter-spacing: unset;
+  }
+
+  .qr {
+    height: 500px;
+    width: auto;
+  }
+
+  &:last-child {
+    margin-bottom: 4em;
+  }
+}
+
+.projs-outer-div {
+  margin-bottom: 4em;
+}

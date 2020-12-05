@@ -234,6 +234,28 @@ img {
   font-weight: bold;
 }
 
+.proj-div {
+  padding: 4em 2em 0 2em;
+}
+
+.proj-div .subtitle {
+  text-transform: unset;
+  letter-spacing: unset;
+}
+
+.proj-div .qr {
+  height: 500px;
+  width: auto;
+}
+
+.proj-div:last-child {
+  margin-bottom: 4em;
+}
+
+.projs-outer-div {
+  margin-bottom: 4em;
+}
+
 body {
   font-family: "Lato", sans-serif !important;
 }
