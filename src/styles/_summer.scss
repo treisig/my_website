@@ -41,6 +41,7 @@ $my_blue: #021ded;
   font-weight: bold;
   font-size: 1.2em;
   margin-top: 0.8em !important;
+  margin-bottom: 0 !important;
 }
 
 .p-description {
@@ -84,3 +85,24 @@ $my_blue: #021ded;
 }
 
 // done
+
+@media only screen and (min-width: 800px) {
+  .summer-div {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+  .p-description {
+    margin-bottom: 0 !important;
+  }
+
+  // .left-text-div {
+  //   display: grid;
+  //   place-content: center;
+  // }
+
+  .right-img {
+    margin-left: 2em;
+    margin-top: 1em;
+  }
+}

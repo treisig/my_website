@@ -22,3 +22,27 @@
 .projs-outer-div {
   margin-bottom: 4em;
 }
+
+@media only screen and (min-width: 800px) {
+  .proj-div {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 40% auto;
+
+    .qr {
+      height: 400px;
+    }
+  }
+  .wrapper-div {
+    display: flex;
+    // place-content: center;
+    align-items: center;
+  }
+
+  .proj-image-div {
+    display: grid;
+    place-content: center;
+    margin-left: 2em;
+    // margin-top: 1em;
+  }
+}
