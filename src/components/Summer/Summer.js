@@ -4,7 +4,7 @@ import summer_of_code from "../../images/summer_of_code.png";
 
 function Summer() {
   return (
-    <div className="summer-div">
+    <div className="summer-div" id="summer">
       <LeftText />
       {/* <div className="right-img-div"> */}
       <img src={summer_of_code} className="right-img" />

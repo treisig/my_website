@@ -120,3 +120,12 @@ img {
     width: 100%;
   }
 }
+
+.header-anchors {
+  text-decoration: none;
+  color: white;
+
+  &:active {
+    color: unset;
+  }
+}

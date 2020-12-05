@@ -121,6 +121,15 @@ img {
   }
 }
 
+.header-anchors {
+  text-decoration: none;
+  color: white;
+}
+
+.header-anchors:active {
+  color: unset;
+}
+
 .summer-div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -250,6 +259,10 @@ img {
 
 .proj-div:last-child {
   margin-bottom: 4em;
+}
+
+.proj-div .anchors {
+  text-decoration: none;
 }
 
 .projs-outer-div {

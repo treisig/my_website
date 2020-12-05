@@ -22,7 +22,7 @@ const card_array = [
 
 function Skills() {
   return (
-    <div className="skills-div">
+    <div className="skills-div" id="skills">
       <SkillsCard
         img={react_logo}
         subtitle="React"

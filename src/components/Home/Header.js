@@ -6,12 +6,20 @@ function Header() {
     <div className="nav-div">
       <div className="main-div">
         <div className="name-div">
-          <span className="name"> Tucker Reisig </span>
+          <a className="header-anchors" href="#home">
+            <span className="name"> Tucker Reisig </span>
+          </a>
         </div>
         <div className="sub-headers-div">
-          <span className="sub-headers"> Experience </span>
-          <span className="sub-headers"> Skills </span>
-          <span className="sub-headers"> Projects </span>
+          <a className="header-anchors" href="#summer">
+            <span className="sub-headers"> Experience </span>
+          </a>
+          <a className="header-anchors" href="#skills">
+            <span className="sub-headers"> Skills </span>
+          </a>
+          <a className="header-anchors" href="#projects">
+            <span className="sub-headers"> Projects </span>
+          </a>
         </div>
       </div>
       <Social />
