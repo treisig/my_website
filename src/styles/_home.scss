@@ -139,3 +139,12 @@ img {
     color: unset;
   }
 }
+
+@media only screen and (min-width: 1250px) {
+  .main-div {
+    padding: 2em 8em 2em 8em !important;
+  }
+  .left-home-text {
+    padding-left: 8em !important;
+  }
+}

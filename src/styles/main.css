@@ -138,6 +138,15 @@ img {
   color: unset;
 }
 
+@media only screen and (min-width: 1250px) {
+  .main-div {
+    padding: 2em 8em 2em 8em !important;
+  }
+  .left-home-text {
+    padding-left: 8em !important;
+  }
+}
+
 .summer-div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -231,6 +240,12 @@ img {
   .right-img {
     margin-left: 2em;
     margin-top: 1em;
+  }
+}
+
+@media only screen and (min-width: 800px) and (min-width: 1250px) {
+  .summer-div {
+    padding: 8em 4em;
   }
 }
 
