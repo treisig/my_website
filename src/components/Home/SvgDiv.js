@@ -8,6 +8,7 @@ function SvgDiv() {
         width="924"
         height="864"
         viewBox="0 0 924 864"
+        className="logo-svg"
       >
         <g id="Group_7" data-name="Group 7" transform="translate(-839 -88)">
           <path

@@ -80,11 +80,19 @@ img {
   }
   .welcome-div h1 {
     text-align: left;
-    font-size: 3em;
+    font-size: 3.2em;
     line-height: 1.2em;
   }
   .welcome-div .left-home-text {
     background: #08baa6;
+    padding: 6em 8em 6em 4em;
+  }
+  .sub-headers {
+    padding: 0 1em 0 1em !important;
+  }
+  .logo-svg {
+    height: 500px;
+    width: 500px;
   }
   .nav-div {
     display: -ms-grid;
@@ -115,8 +123,8 @@ img {
   }
   .home-svg {
     display: unset !important;
-    margin-left: -53%;
-    margin-top: 5%;
+    margin-left: -49%;
+    margin-top: 30%;
     width: 100%;
   }
 }
