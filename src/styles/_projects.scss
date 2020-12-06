@@ -23,6 +23,11 @@
   margin-bottom: 4em;
 }
 
+.text-on-right {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 @media only screen and (min-width: 800px) {
   .proj-div {
     text-align: left;
@@ -33,16 +38,30 @@
       height: 400px;
     }
   }
-  .wrapper-div {
-    display: flex;
-    // place-content: center;
-    align-items: center;
-  }
 
   .proj-image-div {
     display: grid;
     place-content: center;
     margin-left: 2em;
     // margin-top: 1em;
+  }
+
+  .text-on-right {
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto 40%;
+    float: left;
+
+    .proj-image-div {
+      display: grid;
+      place-content: center;
+      margin-right: 2em;
+      margin-left: 0;
+    }
+  }
+  .wrapper-div {
+    display: flex;
+    // place-content: center;
+    align-items: center;
   }
 }

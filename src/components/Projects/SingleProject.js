@@ -6,9 +6,9 @@ function SingleProject(props) {
   // text on left side
   if (props.right) {
     return (
-      <div className="proj-div">
-        <ImagePanel />
-        <Text subtitle={props} />
+      <div className="proj-div text-on-right">
+        <ImagePanel pic={props.pic} pic_class={props.pic_class} />
+        <Text desc={props.desc} title={props.title} subtitle={props.subtitle} />
       </div>
     );
   }

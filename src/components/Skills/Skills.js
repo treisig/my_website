@@ -104,7 +104,6 @@ function Skills() {
   return (
     <div className="wrapper-skills">
       <ArrowBackIcon className="arrows" onClick={() => leftChange()} />
-      {/* <div> */}
       {!isLeft
         ? enteringFromLeft.map(({ item, props, key }) => (
             <animated.div style={props} className="skills-div" id="skills">
@@ -116,8 +115,6 @@ function Skills() {
               {current3}
             </animated.div>
           ))}
-      {/* </div> */}
-
       <ArrowForwardIcon className="arrows" onClick={() => rightChange()} />
     </div>
   );

@@ -48,6 +48,7 @@ function Projects() {
         desc={$2048[0]}
         title={$2048[1]}
         subtitle={$2048[2]}
+        right={true}
       />
       <SingleProject
         pic={"./assets/college-finder.png"}
