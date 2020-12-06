@@ -284,16 +284,40 @@ img {
   font-weight: bold;
 }
 
+.arrows {
+  display: none !important;
+}
+
 @media only screen and (min-width: 800px) {
   .skills-div {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 33% 33% 33%;
         grid-template-columns: 33% 33% 33%;
+    padding: 4em 0em !important;
   }
   .skills-div .card {
     margin: 1em;
     padding: 4em 2em;
+  }
+  .wrapper-skills {
+    background-color: #021ded;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 2em;
+  }
+  .arrows {
+    display: unset !important;
+    height: 2.5em !important;
+    width: 2.5em !important;
+    color: white;
+  }
+  .arrows:hover {
+    cursor: pointer;
   }
 }
 

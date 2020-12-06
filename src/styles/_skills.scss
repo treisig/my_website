@@ -25,14 +25,37 @@
   font-weight: bold;
 }
 
+.arrows {
+  display: none !important;
+}
+
 @media only screen and (min-width: 800px) {
   .skills-div {
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    padding: 4em 0em !important;
 
     .card {
       margin: 1em;
       padding: 4em 2em;
+    }
+  }
+
+  .wrapper-skills {
+    background-color: $my_blue;
+    display: flex;
+    align-items: center;
+    padding: 0 2em;
+  }
+
+  .arrows {
+    display: unset !important;
+    height: 2.5em !important;
+    width: 2.5em !important;
+    color: white;
+
+    &:hover {
+      cursor: pointer;
     }
   }
 }
