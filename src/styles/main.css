@@ -251,7 +251,6 @@ img {
 
 .skills-div {
   background-color: #021ded;
-  padding: 4em 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -267,9 +266,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  cursor: url("https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png") 39 39, auto;
   position: -webkit-sticky;
   position: sticky;
+  color: black;
 }
 
 #skills-inter {
@@ -294,6 +293,22 @@ img {
   width: 5em;
   height: 5em;
   margin: 0.5em;
+}
+
+.temp {
+  background-color: #021ded;
+  color: white;
+  padding: 2em 2em;
+}
+
+.temp h2 {
+  margin-top: 0;
+}
+
+.inter {
+  color: #021ded;
+  color: black;
+  background-color: #f7c008 !important;
 }
 
 .card-logo {
@@ -330,7 +345,6 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding: 4em 0em !important;
   }
   .skills-div .card {
     margin: 1em;

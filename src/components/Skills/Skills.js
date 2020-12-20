@@ -211,8 +211,7 @@ function Skills() {
     // </div>
 
     <div className="wrapper-skills">
-      {/* {brotest >= -150 ? ( */}
-      <animated.div
+      {/* <animated.div
         style={{ x, touchAction: "none" }}
         className="skills-div"
         id="skills"
@@ -220,7 +219,7 @@ function Skills() {
       >
         {proficient_skills}
       </animated.div>
-      {/* ) : ( */}
+
       <animated.div
         style={{ x, touchAction: "none" }}
         className="skills-div"
@@ -228,8 +227,23 @@ function Skills() {
         {...bind()}
       >
         {inter_skills}
-      </animated.div>
-      {/* )} */}
+      </animated.div> */}
+
+      <div className="temp">
+        {/* <p>Proficient</p> */}
+        <h2>Proficient</h2>
+
+        <div className="skills-div" id="skills">
+          {proficient_skills}
+        </div>
+      </div>
+
+      <div className="temp inter">
+        <h2>Intermediate</h2>
+        <div className="skills-div" id="skills-inter">
+          {inter_skills}
+        </div>
+      </div>
     </div>
   );
 }
