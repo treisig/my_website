@@ -210,7 +210,7 @@ function Skills() {
     //   <ArrowForwardIcon className="arrows" onClick={() => rightChange()} />
     // </div>
 
-    <div className="wrapper-skills">
+    <div className="wrapper-skills" id="skills-outer">
       {/* <animated.div
         style={{ x, touchAction: "none" }}
         className="skills-div"
@@ -229,7 +229,7 @@ function Skills() {
         {inter_skills}
       </animated.div> */}
 
-      <div className="temp">
+      <div className="skills-flex">
         {/* <p>Proficient</p> */}
         <h2>Proficient</h2>
 
@@ -238,7 +238,7 @@ function Skills() {
         </div>
       </div>
 
-      <div className="temp inter">
+      <div className="skills-flex inter">
         <h2>Intermediate</h2>
         <div className="skills-div" id="skills-inter">
           {inter_skills}

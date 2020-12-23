@@ -14,7 +14,7 @@ function Header() {
           <a className="header-anchors" href="#summer">
             <span className="sub-headers"> Experience </span>
           </a>
-          <a className="header-anchors" href="#skills">
+          <a className="header-anchors" href="#skills-outer">
             <span className="sub-headers"> Skills </span>
           </a>
           <a className="header-anchors" href="#projects">

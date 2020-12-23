@@ -68,7 +68,28 @@ img {
   font-weight: bold;
 }
 
+@media only screen and (min-width: 800px) {
+  .meet-span {
+    font-size: 1.2em;
+  }
+  .header-anchors {
+    padding: 0 1em;
+  }
+  .header-anchors:last-child {
+    padding-right: 0;
+  }
+  .header-anchors:first-child {
+    padding-left: 0;
+  }
+}
+
 @media only screen and (min-width: 1050px) {
+  .meet-span {
+    font-size: 1.8em;
+  }
+  .name {
+    font-size: 1.7em !important;
+  }
   .welcome-div {
     height: 90vh;
     display: -ms-grid;
@@ -89,6 +110,7 @@ img {
   }
   .sub-headers {
     padding: 0 1em 0 1em !important;
+    font-size: 1.1em;
   }
   .logo-svg {
     height: 500px;
@@ -123,8 +145,8 @@ img {
   }
   .home-svg {
     display: unset !important;
-    margin-left: -49%;
-    margin-top: 30%;
+    margin-left: -50%;
+    margin-top: 35%;
     width: 100%;
   }
 }
@@ -144,6 +166,9 @@ img {
   }
   .left-home-text {
     padding-left: 8em !important;
+  }
+  .welcome-text {
+    padding-right: 3em;
   }
 }
 
@@ -187,6 +212,7 @@ img {
 .p-description {
   color: #3b3b3b;
   margin-bottom: 3em;
+  font-size: 1em;
 }
 
 .triangle {
@@ -243,9 +269,24 @@ img {
   }
 }
 
-@media only screen and (min-width: 800px) and (min-width: 1250px) {
+@media only screen and (min-width: 1050px) {
   .summer-div {
-    padding: 8em 4em;
+    padding: 6em 4em;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .summer-div {
+    padding: 8em;
+  }
+  .subtitle {
+    font-size: 1em !important;
+  }
+  .p-description {
+    font-size: 1.15em;
+  }
+  .title {
+    font-size: 1.3em;
   }
 }
 
@@ -295,13 +336,13 @@ img {
   margin: 0.5em;
 }
 
-.temp {
+.skills-flex {
   background-color: #021ded;
   color: white;
   padding: 2em 2em;
 }
 
-.temp h2 {
+.skills-flex h2 {
   margin-top: 0;
 }
 
@@ -349,6 +390,9 @@ img {
   .skills-div .card {
     margin: 1em;
   }
+  .skills-flex {
+    width: 100%;
+  }
   .wrapper-skills {
     position: relative;
     display: -webkit-box;
@@ -360,6 +404,18 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .skills-flex {
+    padding: 4em 2em;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .skills-flex {
+    padding: 4em 5em;
   }
 }
 
@@ -438,6 +494,114 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .proj-div {
+    padding: 6em 4em 0 4em;
+  }
+  .proj-div:last-child {
+    margin-bottom: 6em;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .proj-div {
+    padding: 8em 8em 0 8em;
+  }
+  .proj-div:last-child {
+    margin-bottom: 8em;
+  }
+}
+
+.footer-div {
+  background-color: #08baa6;
+  padding: 2em;
+  color: white;
+  height: auto;
+}
+
+.footer-div .hire-h1 {
+  margin-top: 0 !important;
+  margin-bottom: 2 em !important;
+}
+
+.footer-div .hire-p {
+  font-size: 1.1em;
+}
+
+.footer-div .hire-a {
+  font-size: 1em;
+}
+
+.footer-div button {
+  font-size: 0.9em;
+  background-color: #021ded;
+  border: none;
+  padding: 0.75em;
+  color: white;
+  border-radius: 1.5em;
+  line-height: 1em;
+  font-weight: 500;
+}
+
+.footer-div button:hover {
+  cursor: pointer;
+}
+
+.footer-div button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.footer-div .footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0.5em;
+}
+
+.footer-div .footer-social img {
+  width: 2.2em;
+  padding: 1.2em;
+  border-radius: 50%;
+}
+
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #079f8e;
+}
+
+.footer-nav .main-div {
+  padding: 0 !important;
+}
+
+@media only screen and (min-width: 800px) {
+  .hire-a {
+    float: left;
+  }
+  .main-div .header-anchors {
+    margin: 0 2em;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .footer-div {
+    padding: 3em;
   }
 }
 

@@ -39,11 +39,12 @@
   margin: 0.5em;
 }
 
-.temp {
+.skills-flex {
   background-color: $my_blue;
   color: white;
   // color: #f7c008;
   padding: 2em 2em;
+  // width: 100%;
 
   h2 {
     margin-top: 0;
@@ -110,6 +111,10 @@
     }
   }
 
+  .skills-flex {
+    width: 100%;
+  }
+
   .wrapper-skills {
     // width: calc(200vw + 4em);
     // background-color: $my_blue;
@@ -137,4 +142,16 @@
   //     cursor: pointer;
   //   }
   // }
+}
+
+@media only screen and (min-width: 1050px) {
+  .skills-flex {
+    padding: 4em 2em;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .skills-flex {
+    padding: 4em 5em;
+  }
 }

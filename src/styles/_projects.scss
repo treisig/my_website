@@ -3,6 +3,7 @@
   .subtitle {
     text-transform: unset;
     letter-spacing: unset;
+    // font-size: 0.8em;
   }
 
   .qr {
@@ -63,5 +64,24 @@
     display: flex;
     // place-content: center;
     align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .proj-div {
+    padding: 6em 4em 0 4em;
+
+    &:last-child {
+      margin-bottom: 6em;
+    }
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .proj-div {
+    padding: 8em 8em 0 8em;
+    &:last-child {
+      margin-bottom: 8em;
+    }
   }
 }

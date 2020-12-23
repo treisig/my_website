@@ -47,6 +47,7 @@ $my_blue: #021ded;
 .p-description {
   color: #3b3b3b;
   margin-bottom: 3em;
+  font-size: 1em;
 }
 
 // This triange is taken from https://stackoverflow.com/questions/14446677/how-to-make-3-corner-rounded-triangle-in-css
@@ -105,10 +106,28 @@ $my_blue: #021ded;
     margin-left: 2em;
     margin-top: 1em;
   }
+}
 
-  @media only screen and (min-width: 1250px) {
-    .summer-div {
-      padding: 8em 4em;
-    }
+@media only screen and (min-width: 1050px) {
+  .summer-div {
+    padding: 6em 4em;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .summer-div {
+    padding: 8em;
+  }
+
+  .subtitle {
+    font-size: 1em !important;
+  }
+
+  .p-description {
+    font-size: 1.15em;
+  }
+
+  .title {
+    font-size: 1.3em;
   }
 }
