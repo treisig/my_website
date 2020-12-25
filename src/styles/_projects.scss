@@ -29,6 +29,16 @@
   flex-direction: column-reverse;
 }
 
+.two-pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .pic-two {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 800px) {
   .proj-div {
     text-align: left;
@@ -73,6 +83,12 @@
 
     &:last-child {
       margin-bottom: 6em;
+    }
+  }
+
+  .two-pic {
+    .pic-two {
+      display: unset;
     }
   }
 }

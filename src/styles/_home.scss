@@ -7,9 +7,21 @@
     display: none;
   }
 }
+.arrow-svg {
+  height: 1.5em;
+  width: 1.5em;
+  margin-right: 0.2em;
+}
 
 img {
   width: 100%;
+}
+
+.meet-span {
+  margin: 1em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-div {
@@ -123,6 +135,9 @@ img {
     height: 500px;
     width: 500px;
   }
+  .welcome-text {
+    padding-right: 3em;
+  }
 
   .nav-div {
     display: grid;
@@ -150,7 +165,7 @@ img {
   .home-svg {
     display: unset !important;
     margin-left: -50%;
-    margin-top: 35%;
+    margin-top: 15%;
     width: 100%;
   }
 }
@@ -168,11 +183,16 @@ img {
   .main-div {
     padding: 2em 8em 2em 8em !important;
   }
+
   .left-home-text {
     padding-left: 8em !important;
   }
 
+  .meet-span {
+    justify-content: start;
+  }
+
   .welcome-text {
-    padding-right: 3em;
+    padding-right: 6em;
   }
 }

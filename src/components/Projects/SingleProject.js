@@ -13,6 +13,21 @@ function SingleProject(props) {
     );
   }
 
+  if (props.two) {
+    return (
+      <div className="proj-div">
+        <Text desc={props.desc} title={props.title} subtitle={props.subtitle} />
+        <div className="two-pic">
+          <ImagePanel pic={props.pic} pic_class={props.pic_class} />
+          <ImagePanel
+            pic={props.two}
+            pic_class={`${props.pic_class} pic-two`}
+          />
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="proj-div">
       <Text desc={props.desc} title={props.title} subtitle={props.subtitle} />

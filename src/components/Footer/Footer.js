@@ -30,10 +30,16 @@ function Footer() {
       <div className="footer-div">
         <div className="hire-div">
           <h2 className="hire-h1">Want to know more?</h2>
-          {/* <p className="hire-p">Click Here to View my Resume </p> */}
-          <button className="hire-btn" onClick={() => openResume()}>
+          <p className="hire-p">
+            Click{" "}
+            <a className="hire-anchor" onClick={() => openResume()}>
+              here
+            </a>{" "}
+            to view my resume!{" "}
+          </p>
+          {/* <button className="hire-btn" onClick={() => openResume()}>
             View Resume
-          </button>
+          </button> */}
         </div>
         <div className="footer-social">
           <Social />

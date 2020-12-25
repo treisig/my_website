@@ -34,6 +34,7 @@ function Projects() {
         desc={qrInfo[0]}
         title={qrInfo[1]}
         subtitle={qrInfo[2]}
+        two={"./assets/restaurant_home.png"}
       />
       {/* <SingleProject
         pic={"./assets/qr_pic.png"}
