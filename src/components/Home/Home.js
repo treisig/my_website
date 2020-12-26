@@ -8,7 +8,6 @@ function Home() {
     <div className="home-div" id="home">
       <Header />
       <WelcomeText />
-      {/* <SvgDiv /> */}
     </div>
   );
 }

@@ -245,7 +245,7 @@ img {
 .triangle {
   position: relative;
   background-color: orange;
-  opacity: 33%;
+  opacity: 0.33;
   text-align: left;
 }
 

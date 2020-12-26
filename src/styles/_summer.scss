@@ -7,19 +7,6 @@ $my_blue: #021ded;
   position: relative;
 }
 
-// .summer-div::before {
-//   content: "";
-//   width: 0;
-//   height: 0;
-//   border-top: 60px solid transparent;
-//   border-bottom: 60px solid transparent;
-//   border-left: 60px solid green;
-//   position: absolute;
-//   border-radius: 16px;
-//   top: 0;
-//   left: 0;
-// }
-
 .triangle-div {
   position: absolute;
   top: 1em;
@@ -55,7 +42,7 @@ $my_blue: #021ded;
 .triangle {
   position: relative;
   background-color: orange;
-  opacity: 33%;
+  opacity: 0.33;
   text-align: left;
 }
 .triangle:before,
@@ -67,8 +54,6 @@ $my_blue: #021ded;
 .triangle,
 .triangle:before,
 .triangle:after {
-  //   width: 10em;
-  //   height: 10em;
   width: 100px;
   height: 100px;
   border-top-right-radius: 30%;
@@ -96,11 +81,6 @@ $my_blue: #021ded;
   .p-description {
     margin-bottom: 0 !important;
   }
-
-  // .left-text-div {
-  //   display: grid;
-  //   place-content: center;
-  // }
 
   .right-img {
     margin-left: 2em;

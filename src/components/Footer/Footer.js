@@ -37,18 +37,10 @@ function Footer() {
             </a>{" "}
             to view my resume!{" "}
           </p>
-          {/* <button className="hire-btn" onClick={() => openResume()}>
-            View Resume
-          </button> */}
         </div>
         <div className="footer-social">
           <Social />
         </div>
-        {/* <div className="footer-top">
-          <a className="header-anchors hire-a" href="#home">
-            <span> Back to the top ⬆️ </span>
-          </a>
-        </div> */}
       </div>
     </div>
   );
