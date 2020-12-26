@@ -8,12 +8,6 @@ function Projects() {
     "restaurantQR",
   ];
 
-  const twitterClone = [
-    `Designed and implemented a mock Twitter web app. Built from scratch using React and Bootstrap. Important features include tweeting, retweeting, commenting, editing personal tweets, deleting personal tweets, and infinite scrolling.`,
-    "https://github.com/treisig/Twitter-Clone",
-    "Twitter Clone",
-  ];
-
   const $2048 = [
     `Designed and implemented my own version of 2048, starting from scratch, using javascript for game logic and jQuery for easy DOM manipulation. 2048 is fully playable in the browser, and features a simple but pleasurable UI.`,
     "https://github.com/treisig/2048-game",

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import SkillsCard from "./SkillsCard";
 import react_logo from "../../images/logo192.png";
 import js_logo from "../../images/JavaScript-logo.png";
