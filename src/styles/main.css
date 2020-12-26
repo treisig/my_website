@@ -27,6 +27,15 @@ img {
           align-items: center;
 }
 
+.name-anchor {
+  text-decoration: none;
+  color: #021ded;
+}
+
+.name-anchor:active {
+  color: unset;
+}
+
 .nav-div {
   background: #079f8e;
   color: white;
@@ -626,7 +635,7 @@ img {
 .footer-div .footer-social img {
   width: 2.2em;
   padding: 1.2em;
-  border-radius: 50%;
+  border-radius: 1.5em;
 }
 
 .footer-nav {

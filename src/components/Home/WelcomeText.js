@@ -8,11 +8,12 @@ function WelcomeText() {
     <div className="welcome-div">
       <div className="left-home-text">
         <h1 className="welcome-text"> College Senior, Full Stack Developer </h1>
-        <a href="#summer" style={{ textDecoration: "none" }}>
-          <div className="meet-span">
+
+        <div className="meet-span">
+          <a href="#summer" className="name-anchor">
             <Arrow /> Meet Tucker Reisig{" "}
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
       <SvgDiv />
     </div>

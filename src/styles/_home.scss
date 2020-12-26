@@ -21,6 +21,14 @@ img {
   align-items: center;
 }
 
+.name-anchor {
+  text-decoration: none;
+  color: #021ded;
+  &:active {
+    color: unset;
+  }
+}
+
 .nav-div {
   background: #079f8e;
   color: white;
