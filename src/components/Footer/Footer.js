@@ -1,6 +1,6 @@
 import React from "react";
 import Social from "../Home/Social";
-import TuckerReisigDecember from "./TuckerReisigDecember.pdf";
+import TuckerReisigDecember from "./TuckerReisigDec2020-website.pdf";
 
 function Footer() {
   const openResume = () => {
