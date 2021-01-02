@@ -241,7 +241,7 @@ img {
 }
 
 .subtitle {
-  color: #021ded;
+  color: black;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.25em;
@@ -249,7 +249,7 @@ img {
 }
 
 .title {
-  color: black;
+  color: #021ded;
   font-weight: bold;
   font-size: 1.2em;
   margin-top: 0.8em !important;

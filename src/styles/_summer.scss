@@ -16,7 +16,7 @@ $my_blue: #021ded;
 }
 
 .subtitle {
-  color: $my_blue;
+  color: black;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.25em;
@@ -24,7 +24,7 @@ $my_blue: #021ded;
 }
 
 .title {
-  color: black;
+  color: $my_blue;
   font-weight: bold;
   font-size: 1.2em;
   margin-top: 0.8em !important;
